@@ -1,0 +1,60 @@
+.intro {
+  background-image: url(/assets/bg/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgray 50%;
+
+  /* max-width: 1366px; */
+  /* max-height: 2934px; */
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  padding-block: 128px 56px;
+  align-items: center;
+
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font: var(--subtitle);
+    color: var(--base-gray-500);
+    margin-bottom: 8px;
+    gap: 12px;
+    margin-top: 64px;
+
+    span {
+      color: var(--main-red);
+    }
+  }
+
+  h1 {
+  display: flex;
+  font: var(--title-lg);
+  color: var(--base-gray-600);
+  font-weight: 700;
+ justify-content: center;
+
+
+    /* text-align: center; */
+  }
+
+  .avatar{
+position: relative;
+
+  }
+
+  h3{
+
+  font: var(--text-sm);
+  color: var(--base-gray-400);
+  font-weight: 400;
+  text-align: center;
+  }
+}

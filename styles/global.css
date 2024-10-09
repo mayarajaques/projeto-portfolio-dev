@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  /*cores*/
+
+  --main-red: #E3646E;
+  --main-purple: #BB72E9;
+  --main-blue: #3996DB;
+  --main-green:#82BC4F;
+  --main-yellow: #EABD5F;
+
+  --base-gray-100: #0D0E11;
+  --base-gray-200:#16181D;
+  --base-gray-300:#292C34;
+  --base-gray-400:#878EA1;
+  --base-gray-500:#C0C4CE;
+  --base-gray-600:#E2E4E9; 
+ 
+  /*fontes*/
+--font-family-Asap: "Asap", sans-serif;
+--title-lg: bold 56px/120% var(--font-family-Asap);
+--title-md: bold 24px/120% var(--font-family-Asap); 
+--title-sm: bold 16px/120% var(--font-family-Asap);
+
+--font-family-inconsolata: "Inconsolata", monospace;
+--subtitle: 20px/120% var(--font-family-inconsolata);
+
+--font-family-MavenPro: "Maven Pro", sans-serif;
+--text-md: 16px/140% var(--font-family-MavenPro);
+--text-sm: 14px/140% var(--font-family-MavenPro);
+
+}   
+
+.content-icons {
+
+
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+  /* justify-content: start; */
+  background-color: var(--base-gray-300);
+  border-radius: 999px;
+
+img{
+  width: 24px;
+  height: 24px;
+}
+
+span{
+  font: var(--text-md);
+  text-align: center;
+  color: var(--base-gray-500);
+}
+
+}

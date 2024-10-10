@@ -34,25 +34,4 @@
 
 }   
 
-.content-icons {
 
-
-  display: flex;
-  flex-direction: column;
-  padding: 8px 16px;
-  /* justify-content: start; */
-  background-color: var(--base-gray-300);
-  border-radius: 999px;
-
-img{
-  width: 24px;
-  height: 24px;
-}
-
-span{
-  font: var(--text-md);
-  text-align: center;
-  color: var(--base-gray-500);
-}
-
-}

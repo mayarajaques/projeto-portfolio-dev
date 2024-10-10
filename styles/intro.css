@@ -14,7 +14,15 @@
   padding-block: 128px 56px;
   align-items: center;
 
+  .avatar {
+    position: relative; /* define que é a caixa como posição relativa. os elementos filhos sâo absolutos a ele*/
+  }
 
+  .icone {
+    position: absolute; /* tem a posicao absoluta ao pai que é relativo*/
+    bottom: 0;
+    right: 1px;
+  }
 }
 
 .info {
@@ -35,26 +43,61 @@
   }
 
   h1 {
-  display: flex;
-  font: var(--title-lg);
-  color: var(--base-gray-600);
-  font-weight: 700;
- justify-content: center;
+    display: flex;
+    font: var(--title-lg);
+    color: var(--base-gray-600);
+    font-weight: 700;
+    justify-content: center;
 
 
     /* text-align: center; */
   }
 
-  .avatar{
-position: relative;
+  h3 {
 
+    font: var(--text-sm);
+    color: var(--base-gray-400);
+    font-weight: 400;
+    text-align: center;
   }
+}
 
-  h3{
+.badges {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 
-  font: var(--text-sm);
-  color: var(--base-gray-400);
-  font-weight: 400;
-  text-align: center;
+
+
+
+  .content-icons {
+    display: flex;
+    background-color: var(--base-gray-300);
+    border-radius: 999px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+
+
+    img {
+      width: 24px;
+      height: 24px;
+   
+    }
+
+    span {
+      font: var(--text-md);
+      color: var(--base-gray-500);
+      
+
+
+    }
+
+    img span {
+      align-self: center;
+      
+
+    }
+
   }
 }

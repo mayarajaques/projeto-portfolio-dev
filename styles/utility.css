@@ -6,8 +6,34 @@
   justify-items: center;
   gap: 24px;
   
- 
- 
+ }
+ .title {
+  /*titulos da pagina*/
+  font: 20px/120% var(--font-family-inconsolata);
+  text-align: center;
 
+}
+.subtittle {
 
+  /*usbtitulos da pagina*/
+
+  span {
+    font: var(--text-sm);
+    font-weight: 400;
+    color: var(--base-gray-500);
+  }
+
+  p {
+    font: var(--title-sm);
+    font-weight: 700;
+    color: var(--base-gray-600);
+    margin-bottom: 8px;
+  }
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--base-gray-600);
+  text-align: center;
+  margin: 8px 0px 56px;
 }

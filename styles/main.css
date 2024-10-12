@@ -1,0 +1,55 @@
+main {
+  background-color: var(--base-gray-200);
+
+  .tittle {
+
+    font: 20px/120% var(--font-family-inconsolata);
+    color: var(--main-red);
+    text-align: center;
+
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--base-gray-600);
+    text-align: center;
+    margin: 8px 0px 56px;
+  }
+
+  /*cards*/
+  .card {
+    width: 330px;
+    height: 280px;
+    background-color: var(--base-gray-300);
+    border-radius: 12px;
+    padding: 12px 12px;
+
+    &:hover {
+     border: 1.5px solid var(--base-gray-400);
+    }
+
+
+    img {
+      width: 306px;
+      height: 156px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    p {
+
+      font: var(--title-sm);
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--base-gray-600);
+    }
+
+    span {
+      font: var(--text-sm);
+      font-weight: 400;
+      color: var(--base-gray-500);
+    }
+
+  }
+
+}

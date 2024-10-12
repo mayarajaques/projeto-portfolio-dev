@@ -1,10 +1,13 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 
 :root{
   /*cores*/
+
+
 
   --main-red: #E3646E;
   --main-purple: #BB72E9;

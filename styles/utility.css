@@ -5,8 +5,22 @@
   padding: 0px 120px 144px 120px;
   justify-items: center;
   gap: 24px;
+
   
  }
+
+ @media (max-width: 768px) {
+  .grid-3-col {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas para tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-3-col {
+    grid-template-columns: 1fr; /* 1 coluna para smartphones */
+  }
+}
+
  .title {
   /*titulos da pagina*/
   font: 20px/120% var(--font-family-inconsolata);

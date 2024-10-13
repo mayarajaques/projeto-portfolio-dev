@@ -1,5 +1,9 @@
+
+
 main {
   background-color: var(--base-gray-200);
+ 
+
 
   .title p{ /*cor do titulo (red)*/
   color: var(--main-red);

@@ -1,6 +1,7 @@
 # 🖥️ Meu Portfólio - Mayara Jaques
 
-![Screenshot do Portfólio](https://mayarajaques.github.io/projeto-portfolio-dev/.github/intro.png) <!-- Adicione uma imagem do seu portfólio aqui, se tiver -->
+![Screenshot do Portfólio](.github/intro.png) 
+![Screenshot do Portfólio](.github/projects.png) <!-- Adicione uma imagem do seu portfólio aqui, se tiver -->
 
 ## 🚀 O Que É?
 

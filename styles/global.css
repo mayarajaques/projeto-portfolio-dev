@@ -8,7 +8,7 @@
   
 .container{
  
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   background-color: var(--base-gray-200);
 
@@ -38,16 +38,16 @@ a{
  
   /*fontes*/
 --font-family-Asap: "Asap", sans-serif;
---title-lg: bold 56px/120% var(--font-family-Asap);
---title-md: bold 24px/120% var(--font-family-Asap); 
---title-sm: bold 16px/120% var(--font-family-Asap);
+--title-lg: bold 3.5rem/1.5 var(--font-family-Asap);
+--title-md: bold 1.5rem/1.5 var(--font-family-Asap); 
+--title-sm: bold 1rem/1.5 var(--font-family-Asap);
 
 --font-family-inconsolata: "Inconsolata", monospace;
---subtitle: 20px/120% var(--font-family-inconsolata);
+--subtitle: 1.25rem/120% var(--font-family-inconsolata);
 
 --font-family-MavenPro: "Maven Pro", sans-serif;
---text-md: 16px/140% var(--font-family-MavenPro);
---text-sm: 14px/140% var(--font-family-MavenPro);
+--text-md: 1rem/140% var(--font-family-MavenPro);
+--text-sm: .875rem/140% var(--font-family-MavenPro);
 
 }   
 

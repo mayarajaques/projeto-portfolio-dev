@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  
 
 }
   
@@ -10,6 +10,9 @@
  
   background-size: cover;
   background-position: center;
+  background-color: var(--base-gray-200);
+  width: 1366px;
+
 }
 
 a{
@@ -18,6 +21,7 @@ a{
 
 :root{
   /*cores*/
+  background-color: var(--base-gray-200);
 
   --main-red: #E3646E;
   --main-purple: #BB72E9;

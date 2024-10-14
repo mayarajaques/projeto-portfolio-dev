@@ -1,6 +1,7 @@
 
 main {
   background-color: var(--base-gray-200);
+  
 
 
   .title p{ /*cor do titulo (red)*/
@@ -36,7 +37,8 @@ main {
       width: 280px;
       padding: 20px;
       border-radius: 12px;
-      border: 2px solid var(--base-gray-200)
+      border: 2px solid var(--base-gray-200);
+      
     }
     img{
       margin-bottom: 20px;

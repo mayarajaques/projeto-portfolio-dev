@@ -1,15 +1,16 @@
 *{
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .intro {
-  /* width: 1366px; */
-  /* height: 750px; */
+
   background-image: url("../assets/images/bg-intro.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 100vh;
   background-color: lightgray 50%;
+
 
   /* max-width: 1366px; */
   /* max-height: 2934px; */
@@ -75,6 +76,7 @@
     display: flex;
     justify-content: center;
     gap: 16px;
+    
 
 
 

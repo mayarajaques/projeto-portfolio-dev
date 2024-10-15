@@ -36,7 +36,7 @@ Você pode ver o projeto ao vivo aqui: [Meu Portfólio](https://mayarajaques.git
 
 LinkedIn: [Mayara Jaques](https://www.linkedin.com/in/mayarajaques/)
 
-Email: mayara.jaques@email.com
+Email: maayjaques@gmail.com
 
 📝 Contribuições
 Se você tiver sugestões ou ideias para melhorar meu portfólio, fique à vontade para abrir uma issue ou fazer um pull request. Estou sempre aberta a feedback!

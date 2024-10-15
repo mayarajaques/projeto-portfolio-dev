@@ -1,7 +1,10 @@
 # 🖥️ Meu Portfólio - Mayara Jaques
 
+**Projeto desenvolvido com os conhecimentos adquiridos com o curso da Rocketseat.**
+
+
 ![Screenshot do Portfólio](.github/intro.png) 
-![Screenshot do Portfólio](.github/projects.png) <!-- Adicione uma imagem do seu portfólio aqui, se tiver -->
+![Screenshot do Portfólio](.github/projects.png) 
 
 ## 🚀 O Que É?
 

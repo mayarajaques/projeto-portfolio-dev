@@ -1,7 +1,10 @@
 # 🖥️ Meu Portfólio - Mayara Jaques
 
+**Projeto desenvolvido com os conhecimentos adquiridos com o curso da Rocketseat.**
+
+
 ![Screenshot do Portfólio](.github/intro.png) 
-![Screenshot do Portfólio](.github/projects.png) <!-- Adicione uma imagem do seu portfólio aqui, se tiver -->
+![Screenshot do Portfólio](.github/projects.png) 
 
 ## 🚀 O Que É?
 
@@ -36,7 +39,7 @@ Você pode ver o projeto ao vivo aqui: [Meu Portfólio](https://mayarajaques.git
 
 LinkedIn: [Mayara Jaques](https://www.linkedin.com/in/mayarajaques/)
 
-Email: mayara.jaques@email.com
+Email: maayjaques@gmail.com
 
 📝 Contribuições
 Se você tiver sugestões ou ideias para melhorar meu portfólio, fique à vontade para abrir uma issue ou fazer um pull request. Estou sempre aberta a feedback!

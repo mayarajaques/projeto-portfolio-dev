@@ -3,15 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   
+  
 
 }
   
 .container{
- 
-  /* background-size: cover; */
+
   background-position: center;
   background-color: var(--base-gray-200);
-
 
 }
 
@@ -50,5 +49,6 @@ a{
 --text-sm: .875rem/140% var(--font-family-MavenPro);
 
 }   
+
 
 

@@ -130,3 +130,23 @@
 
   }
 }
+
+.scroll-image{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .scroll-image:hover {
+    transform: scale(1.1); 
+  
+
+ 
+   html {
+    scroll-behavior: smooth;
+  }
+
+  #section2 {
+    padding: 100px;
+    background-color: #f0f0f0;
+  } 
+}

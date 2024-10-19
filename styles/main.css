@@ -1,11 +1,9 @@
-
 main {
   background-color: var(--base-gray-200);
-  
 
-
-  .title p{ /*cor do titulo (red)*/
-  color: var(--main-red);
+  .title p {
+    /*cor do titulo (red)*/
+    color: var(--main-red);
   }
 
   .card {
@@ -19,16 +17,13 @@ main {
       border: 1.5px solid var(--base-gray-400);
     }
 
-
     img {
       width: 306px;
       height: 156px;
       border-radius: 12px;
       margin-bottom: 20px;
     }
-
   }
-
   .services {
     background-color: var(--base-gray-100);
     padding: 88px 120px 120px 120px;
@@ -38,9 +33,9 @@ main {
       padding: 20px;
       border-radius: 12px;
       border: 2px solid var(--base-gray-200);
-      
+
     }
-    img{
+    img {
       margin-bottom: 20px;
     }
   }

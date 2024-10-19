@@ -6,7 +6,7 @@
 ![Screenshot do Portfólio](.github/intro.png) 
 ![Screenshot do Portfólio](.github/projects.png) 
 
-## 🚀 O Que É?
+## 🚀 O Que é?
 
 Esse é o meu portfólio online! Aqui você pode conhecer um pouco mais sobre mim, minhas habilidades e conferir alguns dos projetos que já desenvolvi. A ideia é ter um espaço onde eu possa mostrar meu trabalho e aprendizado na área de desenvolvimento.
 

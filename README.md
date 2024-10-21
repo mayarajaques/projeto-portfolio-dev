@@ -2,6 +2,7 @@
 
 **Projeto desenvolvido com os conhecimentos adquiridos com o curso da Rocketseat.**
 
+Esta página será constantemente atualizada com novos aprendizados e conceitos adquiridos ao longo do curso.
 
 ![Screenshot do Portfólio](.github/intro.png) 
 ![Screenshot do Portfólio](.github/projects.png) 

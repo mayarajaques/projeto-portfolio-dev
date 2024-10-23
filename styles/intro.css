@@ -111,7 +111,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /*scroll suave*/
+  
 }
 
 .scroll-image {

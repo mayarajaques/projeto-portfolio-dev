@@ -1,6 +1,6 @@
 # 🖥️ Meu Portfólio - Mayara Jaques
 
-**Projeto desenvolvido com os conhecimentos adquiridos com o curso da Rocketseat.**
+**Projeto desenvolvido com os conhecimentos adquiridos do curso Fullstack da Rocketseat.**
 
 Esta página será constantemente atualizada com novos aprendizados e conceitos adquiridos ao longo do curso.
 

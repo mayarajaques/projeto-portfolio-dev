@@ -111,8 +111,9 @@
 }
 
 html {
-  scroll-behavior: smooth; /*scroll suave*/
-  
+  scroll-behavior: smooth;
+  /*scroll suave*/
+
 }
 
 .scroll-image {
@@ -126,5 +127,65 @@ html {
   #section2 {
     padding: 100px;
     background-color: #f0f0f0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  .intro {
+
+    .bio {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        font-size: 18px;
+        text-align: center;
+        margin: 8px;
+        margin-top: 64px;
+        flex-wrap: wrap;
+
+      }
+
+      span {
+        display: inline-block;
+      }
+
+      h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+
+        font: var(--text-sm);
+        color: var(--base-gray-400);
+        text-align: center;
+        margin: 0px;
+      }
+    }
+
+    .badges {
+
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .content-icons {
+        display: flex;
+        padding: 8px;
+
+
+      }
+    }
   }
 }

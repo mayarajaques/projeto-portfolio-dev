@@ -79,3 +79,28 @@ footer {
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+
+
+  footer {
+    padding: 80px 20px 20px 20px;
+  
+  
+    .flex-social {
+      /*lista de redes sociais*/
+      display: flex;
+      gap: 16px;
+      margin-top: 20px;
+    }
+  
+    .flex-social-item {
+      display: flex;
+      width: 300px;
+      padding: 20px;
+    }
+  
+    }
+  
+  
+  }

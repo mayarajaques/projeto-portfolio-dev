@@ -50,5 +50,16 @@ a{
 
 }   
 
+@media only screen and (max-width: 768px) {
 
+.container {
+
+  background-position: center;
+  background-color: var(--base-gray-200);
+  /* overflow: hidden; */
+
+}
+
+
+}
 

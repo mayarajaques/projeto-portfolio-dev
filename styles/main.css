@@ -24,6 +24,7 @@ main {
       margin-bottom: 20px;
     }
   }
+
   .services {
     background-color: var(--base-gray-100);
     padding: 88px 120px 120px 120px;
@@ -35,9 +36,68 @@ main {
       border: 2px solid var(--base-gray-200);
 
     }
+
     img {
       margin-bottom: 20px;
     }
   }
 
+}
+
+@media only screen and (max-width: 768px) {
+
+  section {
+
+    & .card {
+      width: 280px;
+      height: 230px;
+      background-color: var(--base-gray-300);
+      padding: 15px;
+
+
+      img {
+        width: 250px;
+        height: 120px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
+
+    .services {
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 80px 20px 60px 20px;
+
+      .box {
+        
+        width: 180px;
+        height: 150px;
+        padding: 8px;
+        border-radius: 12px;
+        border: 2px solid var(--base-gray-200);
+
+        p{
+          font-size: 15px;
+        }
+
+        span{
+          font-size: 12px;
+        }
+
+      }
+
+      img {
+        margin-bottom: 10px;
+      }
+    }
+  }
 }

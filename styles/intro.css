@@ -135,13 +135,27 @@ html {
 
   .intro {
 
+    min-height: auto;
+
     .bio {
       display: flex;
       flex-direction: column;
       padding: 10px;
       align-items: center;
       flex-wrap: wrap;
+
+
     }
+
+    .next {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 0px 50px;
+      /* padding-bottom: 57px ; */
+  
+  }
 
     .info {
       display: flex;
@@ -149,10 +163,10 @@ html {
       align-items: center;
 
       p {
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
-        margin: 8px;
-        margin-top: 64px;
+
+        margin-top: 40px 0px 10px 0px;
         flex-wrap: wrap;
 
       }
@@ -162,16 +176,15 @@ html {
       }
 
       h1 {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 10px;
+        text-align: center;
       }
 
       h3 {
 
-        font: var(--text-sm);
-        color: var(--base-gray-400);
-        text-align: center;
-        margin: 0px;
+      font-size: 18px;
+        margin: 20px;
       }
     }
 
